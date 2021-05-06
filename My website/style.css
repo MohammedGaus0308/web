@@ -1,0 +1,29 @@
+h1{
+    color:aqua;
+}
+
+
+.header{ 
+    background-color: red;
+    display:flex;
+    justify-content:space-between ;
+}
+.grid{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.item{
+    display:flex;
+    justify-content: first baseline;
+    flex-direction:  row-reverse;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+h2,p{
+text-align: center;
+}
